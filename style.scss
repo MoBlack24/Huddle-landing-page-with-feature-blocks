@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 
+/* Start of Global */
+
 // Main Colors
 
 $pink: hsl(322, 100%, 66%);
@@ -86,9 +88,11 @@ img {
     -o-transition: all 0.3s;
 }
 
-// font-family: 'Open Sans', sans-serif; font-family: 'Poppins', sans-serif;
-/* 
-font-family: 'Poppins', sans-serif; */
+h1,h2 {font-family: 'Poppins', sans-serif; }
+
+/* End of Global */
+
+/* Header Section */
 
 .header {
 
@@ -134,7 +138,6 @@ font-family: 'Poppins', sans-serif; */
         column-gap: 4rem;
 
         &__content {
-        //    padding-right: 0.5rem;
            width: 45%;
         }
 
@@ -159,6 +162,10 @@ font-family: 'Poppins', sans-serif; */
         }
     }
 }
+
+/* End of Header Section */
+
+/* Main & Features Section */
 
 .main {
     position: relative;
@@ -230,6 +237,10 @@ font-family: 'Poppins', sans-serif; */
 
     }
 }
+
+/* End of Main & Features Section */
+
+/* Start of Footer */
 
 .footer {
     background-color: $dark-cyan;
@@ -353,6 +364,10 @@ font-family: 'Poppins', sans-serif; */
 
     }
 }
+
+/* End of Footer */
+
+/* Start of Media Queries */
 
 @media (max-width: 48em) {
     html {
